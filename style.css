@@ -1,3 +1,21 @@
+/*
+CSS - Folha de estilo que aplica estilização no HTML
+Para alterar propriedades e estilos de documento HTML é necessário usar seletores
+Seletores principais
+ .classe = O ponto seguido do nome da classe, permite criarmos a regra CSS. Essa regra só vai a contecer no componente, se a '.classe' for chamada na propiedade class="classe" da tag HTML.
+ Exemplo: 
+ .titulo{
+    color: #fff;
+    font-size: 20px;
+ }
+ #id = a 'hash tag' (#) seguida do nome da identidade de elemento, aplica a regra CSS ao elemento que possuir id pré determinado na tag por meio da propriedade id="nome"
+ Seletor do elemento html, exemplo:
+body{
+    color: #000;
+    font-size: 16px;
+}
+*/
+
 body {
     margin: 0;
     padding: 0;
@@ -66,16 +84,19 @@ main h1 {
     margin-bottom: 20px;
 }
 
-#calc-form{
-  display: flex;
-  flex-direction: column;
-  gap: 25px;  
-  font-size: 18px;
+#calc-form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    font-size: 18px;
 }
-#calc-form label{
+
+#calc-form label {
     text-align: left;
     font-family: 'Courier New', Courier, monospace;
+
 }
+
 #calc-form input {
     padding: 10px 5px;
     font-size: 20px;
@@ -83,20 +104,27 @@ main h1 {
     max-height: 100px;
     height: 80px;
     background-color: #282A36;
-    border: 2px solid #6272a4;
+    border: 2px solid #6272A4;
     border-radius: 10px;
     color: white;
     font-weight: bold;
 }
 
-#calc-form button{
+#calc-form button {
     display: block;
     font-size: 18px;
     padding: 20px;
 }
 
-#result h3 {
-    margin: 25px auto ;
-    font-size: 27px;
+#result .resultado {
+
+    margin: 25px auto;
+    font-size: 30px;
     font-weight: bold;
+
+}
+
+img {
+    height: 190px;
+    width: 190px;
 }
