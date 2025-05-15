@@ -9,5 +9,5 @@ document.getElementById('btnCalc').addEventListener('click',(event)=>{
     const resultado = vlTotal - vlDesconto;
     const divResultado = document.getElementById("result");
 
-    divResultado.innerHTML = `<h3>${resultado}</h3>`
+    divResultado.innerHTML = `<h3>${"O valor total é: "+resultado+" reais"}</h3>`
 })

@@ -94,3 +94,9 @@ main h1 {
     font-size: 18px;
     padding: 20px;
 }
+
+#result h3 {
+    margin: 25px auto ;
+    font-size: 27px;
+    font-weight: bold;
+}
